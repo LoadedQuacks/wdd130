@@ -1,0 +1,61 @@
+/* Add your CSS here to style the photography portfolio*/
+
+/* Go here to get fonts: https://fonts.google.com/*/
+/* Select a font, and copy it's @import statement. Paste at the top of this file.*/
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Diplomata&family=Emilys+Candy&family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Diplomata&family=Emilys+Candy&family=Leckerli+One&family=Raleway+Dots&display=swap');
+
+h1 {
+    font-family:"Emilys Candy", serif;
+    font-size: 3em;
+    text-align: center;
+    color: orange;
+}
+
+h2 {
+    font-family:"Raleway Dots", sans-serif;
+    text-align: center;
+    color: orange;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4px;
+    height: 50px;
+    margin-bottom: 1%;
+}
+
+nav a {
+    font-family:"Emilys Candy", serif;
+    font-size: large;
+    text-align: center;
+    color: orange;
+    text-decoration: overline;
+    line-height: 50px;
+    background-color: peachpuff;
+}
+
+nav a:hover {
+    font-weight: bolder;
+}
+
+/* Flexbox cheat sheet: https://flexbox.malven.co/*/
+#img-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 1000px;
+    flex-wrap: wrap-reverse;
+    margin-right: 0%;
+    margin-left: 0%;
+    gap: 8px;
+}
+
+img {
+    max-width: 250px;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(42, 42, 42);
+}

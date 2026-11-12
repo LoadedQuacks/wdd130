@@ -1,0 +1,35 @@
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: rgb(247, 205, 168);
+}
+nav a {
+text-align: center;
+text-decoration: none;
+padding: 125px;
+}
+nav a:hover {
+    color: black;
+    font-weight: bolder;
+}
+footer {
+    font-size: 9px;
+    font-weight: lighter;
+    font-style: italic;
+}
+#imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+}
+img {
+    height: 350px;
+    width: 600px;
+    background-color: blueviolet;
+    border: rgb(249, 112, 0) solid 5px;
+    border-radius: 5%;
+    justify-self: center;
+    object-fit: cover;
+}
+header {
+    text-align: center;
+}
